@@ -1,0 +1,21 @@
+import java.util.Scanner;
+ 
+class AddNumbersUsingMethod
+{
+      int x, y, z;
+   public static void main(String args[])
+   {
+     sum();
+   }
+   private void sum(){
+    System.out.println("Enter two integers to calculate their sum ");
+      Scanner in = new Scanner(System.in);
+	  System.out.println("First number is :");
+      x = in.nextInt();
+	  System.out.println("Second number is :");
+      y = in.nextInt();
+      z = x + y;
+      System.out.println("Sum is : "+z);
+	  }
+   
+}

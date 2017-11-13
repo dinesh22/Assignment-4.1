@@ -1,0 +1,22 @@
+public class MultiplesOfaNumber {
+    int x;
+	public static void main(String[] args) {
+		multiples();
+		}
+	
+	public static void multiples(){
+	
+      Scanner in = new Scanner(System.in);
+	  System.out.println("Input :");	
+       x = in.nextInt();
+	  
+	  for(int i = 1; i <= 10; i++){
+	          int result;
+         	  System.out.println(x+"*"+i+"=");	
+			  result = x * i ;
+			  System.out.print(result);
+			  
+	  }
+	}
+
+}

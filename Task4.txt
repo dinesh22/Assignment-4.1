@@ -1,0 +1,28 @@
+import java.util.Scanner;
+ 
+class FindOddAndEvenNumbers
+{
+   public static void main(String args[])
+   {
+      int x, y;
+
+      Scanner in = new Scanner(System.in);
+	  
+      System.out.println("Enter the first number:");
+      x = in.nextInt();
+	  
+      System.out.println("Enter the second number");
+      y = in.nextInt();
+	  
+	  for(int i=x;i<=y;i++){
+	  
+	   if(i%2==0){
+	   
+	         System.out.println(i+"is even");
+			 }
+			 else if(i%3==0){
+			 
+	         System.out.println(i+"is odd");
+			 }
+           }
+}

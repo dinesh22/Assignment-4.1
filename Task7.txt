@@ -1,0 +1,23 @@
+Answer :
+
+It is possible to have a method with same return type when it is overloaded. Compiler chooses the right method depending on the parameters used during method call.
+
+
+Example:
+
+Method 1 :
+public int calc(int a, int b, int c){
+return a+b+c;
+}
+
+Method 2 :
+public int calc(int e, int f){
+return e+f;
+
+
+When the below method is called,The compiler will choose the Method1's implementation and returns the integer value,
+
+calc(1,2,3);
+
+Which proves that we can overload a method with the same return type.
+
